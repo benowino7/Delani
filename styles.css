@@ -1,0 +1,28 @@
+.introduction {
+    background-image: url('./backgrounds/img1.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    height: 52em;
+}
+
+.introduction img{
+    margin-top: 17%;
+}
+
+.about {
+    text-align: center;
+    color: black;
+    margin-bottom: 1%;
+}
+.services{
+    background-image: url('./backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40em;
+    text-align: center;
+    color: white;
+}
+ .services>h1{
+    padding-top: 8%;
+} 
