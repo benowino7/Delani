@@ -58,3 +58,37 @@
     color: white;
     
 }
+.contacts{
+  text-align: center; 
+ /* display: inline-block; */
+ background-image: url('./backgrounds/c_image.jpg');
+ /* background-repeat: no-repeat; */
+ background-size: cover;
+ width: 80%;
+ left: 0;
+ right: 0;
+ color: white;
+ 
+}
+input{
+    margin: 5%;
+    background-color: transparent;
+    width: 400px;  
+    z-index: 1;
+    border: solid 3px white;
+}
+#text{
+height: 200px;
+width: 65%;
+margin-top: 1%;
+margin-bottom: 2%;
+background-color: transparent;
+z-index: 1;
+border: solid 3px white;
+}
+
+
+#icons{
+    text-align: center;
+    margin-top: 1%;
+}
