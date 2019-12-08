@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Calistoga|Courgette|Odibee+Sans|Permanent+Marker&display=swap"
         rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="scripts.js"></script>
     <title>Delani studios</title>
 </head>
 
@@ -37,32 +36,41 @@
             your product version<br>The outcome of this scoping session is proposal or high-level statement of work<br>
             based on your requirements, we can provide a complete offering or just the pieces you need</p>
     </div>
-    <center> <h1>WHAT WE DO</h1></center>
+    <center>
+        <h1>WHAT WE DO</h1>
+    </center>
     <div class="container what-we-do">
         <div class="do-first">
-            <img src="./services_icons/design_icon.png" alt="icon" id="img"><h6>DESIGN</h6><br>
-            <p id="p">Our design practice offers a full range of services including brand strategy, interaction and visual
+            <img src="./services_icons/design_icon.png" alt="icon" id="img">
+            <h6>DESIGN</h6><br>
+            <p id="p">Our design practice offers a full range of services including brand strategy, interaction and
+                visual
                 design and user experience testing.
                 Throughout your project, our designers create and implement visual design and workflows, solicit user
                 feedback and work with you to make sure what gets built is what is needed.</p>
         </div>
         <div class="do-second">
-            <img src="./services_icons/dev_icon.png" alt="icon" id="img1"><h6>DEVELOPMENT</h6>
+            <img src="./services_icons/dev_icon.png" alt="icon" id="img1">
+            <h6>DEVELOPMENT</h6>
             <br>
             <p id="p1">All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 They collaborate with your team to write, and improve code on a daily basis, using proven practices such
                 as test-driven development and pair programming.</p>
         </div>
         <div class="do-third">
-            <img src="./services_icons/product_icon.png" alt="icon" id="img2"><h6>PRODUCT MANAGEMENT</h6><br>
-            <p id="p2">Planning and development is iterative. Because we are constantly coding and testing, the products we
+            <img src="./services_icons/product_icon.png" alt="icon" id="img2">
+            <h6>PRODUCT MANAGEMENT</h6><br>
+            <p id="p2">Planning and development is iterative. Because we are constantly coding and testing, the products
+                we
                 build are always ready to go live.
                 This iterative process allows for changes as business requirements evolve.
             </p>
         </div><br><br>
     </div>
     <div class="container" id="portfolio-img">
-       <center><h1>PORTFOLIO</h1></center> 
+        <center>
+            <h1>PORTFOLIO</h1>
+        </center>
         <img src="./portfolio/work4.jpg" alt="gallery">
         <img src="./portfolio/work3.jpg" alt="gallery">
         <img src="./portfolio/work2.jpg" alt="gallerey">
@@ -70,34 +78,39 @@
         <img src="./portfolio/work5.jpg" alt="gallery">
         <img src="./portfolio/work6.jpg" alt="gallery">
         <img src="./portfolio/work7.jpg" alt="gallery">
-        <div class="IMG"><strong><br><p>BAILEY<br>WONGER <br><br><br><br><br></p><br></strong></div>
+        <div class="IMG"><strong><br>
+                <p>BAILEY<br>WONGER <br><br><br><br><br></p><br>
+            </strong></div>
     </div>
     <center>
-    <div class="contacts">
+        <div class="contacts">
 
-     <h1>CONTACT US</h1>
-     <form action="" method="" name="forms">
-     <input type="text" name="text" placeholder="Name...">
-     <input type="email" name="email" placeholder="Email...">
-     <textarea id="text" placeholder="Your message here..."></textarea>
-     <center><button class="btn-info btn" name="btn">Submit</button></center>
-    </form>
-    </div>
+            <h1>CONTACT US</h1>
+            <form id="forms" method="post" action="">
+                <input type="text" id="txt" placeholder="Name...">
+                <input type="email" id="email" placeholder="Email...">
+                <textarea id="text" placeholder="Your message here..."></textarea>
+                <center><input type="submit" value="Submit" name="btn" class="btn btn-info" onclick="checkEmpty()"></center>
+            </form>
+            <p id="results"></p>
+        </div>
     </center>
     <div class="container" id="icons">
-           <a href=""></a> <img src="./social_icons/behance.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/dribble.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/facebook.png" alt="gallerey">
-           <a href=""></a> <img src="./social_icons/flickr.png" alt="gallerey">
-           <a href=""></a> <img src="./social_icons/g_plus.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/pinterest.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/skype.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/stumble_upon.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/twitter.png" alt="gallery">
-           <a href=""></a> <img src="./social_icons/you_tube.png" alt="gallery">
-           <a href=""></a> <p>DELANI STUDIO <br>&copy;2019</p>
+        <a href=""></a> <img src="./social_icons/behance.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/dribble.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/facebook.png" alt="gallerey">
+        <a href=""></a> <img src="./social_icons/flickr.png" alt="gallerey">
+        <a href=""></a> <img src="./social_icons/g_plus.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/pinterest.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/skype.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/stumble_upon.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/twitter.png" alt="gallery">
+        <a href=""></a> <img src="./social_icons/you_tube.png" alt="gallery">
+        <a href=""></a>
+        <p>DELANI STUDIO <br>&copy;2019</p>
     </div>
 
 </body>
+<script src="scripts.js"></script>
 
 </html>
