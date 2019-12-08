@@ -38,7 +38,7 @@
 .do-first,
 .do-second,
 .do-third {
-    height: 300px;
+    height: auto;
     width: 300px;
     text-align: center;
     margin: 1%;
