@@ -38,7 +38,7 @@
 .do-first,
 .do-second,
 .do-third {
-    height:auto;
+    height: auto;
     width: 300px;
     text-align: center;
     margin: 1%;
@@ -60,19 +60,27 @@
 }
 
 .IMG {
-    background-image: url('./portfolio/work8.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     float: right;
+    opacity: 0.9;
+    background: linear-gradient(#070606ea,
+            #141414d0),
+        url('./portfolio/work8.jpg');
 
 }
 
 .IMG p {
     border: 3px solid white;
     font-size: 22px;
-    margin: 6%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 8%;
+    margin-left: 8%;
+    z-index: 1;
     color: white;
-
+    padding-top: 4px;
+    padding-left: 2%;
 }
 
 .contacts {
