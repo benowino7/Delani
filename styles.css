@@ -27,22 +27,26 @@
     padding-top: 8%;
 } 
 .what-we-do{
-    display: inline-block;
+    display:flex;
     text-align: center;
+    
 }
 .do-first,.do-second,.do-third{
     height: 300px;
     width: 300px;
-    display:inline-block;
     text-align: center;
     margin: 1%;
     margin-right: 1%;
+}
+.do-first img, .do-second img, .do-third img{
+    top: 0;
 }
 
 #portfolio-img>img, .IMG{
     width: 250px;
     height: 250px;
     margin: 1%;
+    margin-top: 0%;
 }
 .IMG{
    background-image: url('./portfolio/work8.jpg');
@@ -68,15 +72,19 @@
  left: 0;
  right: 0;
  color: white;
+ margin-top: 1%;
+ 
  
 }
 input{
-    margin: 5%;
+    margin: 3%;
     background-color: transparent;
-    width: 400px;  
+    width: 350px;  
     z-index: 1;
     border: solid 3px white;
+    color: white;
 }
+input::placeholder{color: #fff;}
 #text{
 height: 200px;
 width: 65%;
@@ -84,11 +92,20 @@ margin-top: 1%;
 margin-bottom: 2%;
 background-color: transparent;
 z-index: 1;
-border: solid 3px white;
+border: solid 2px white;
+color: white;
 }
-
+#text::placeholder{
+    color: #fff;
+}
 
 #icons{
     text-align: center;
     margin-top: 1%;
+}
+#p,#p1,#p2{
+    display: none;
+}
+button{
+    margin: 2%;
 }
