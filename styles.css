@@ -176,7 +176,7 @@ body>div.prld>p b {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    animation: anm 5s ease-in-out infinite alternate;
+    animation: anm 3s ease-in-out infinite alternate;
     transform-origin: 0px 0px;
     overflow: hidde;
 }
