@@ -171,7 +171,7 @@ body>div.prld>p {
 
 body>div.prld>p b {
     border: 8px dotted #70ffff;
-    margin: 8px;
+    margin: 6px;
     display: inline-block;
     width: 90px;
     height: 90px;
@@ -188,4 +188,8 @@ body>div.prld>p b {
 }
 .bg-3{
     background-color: #ee3daa;
+}
+#results{
+    color: blue;
+    font-size: 25px;
 }
