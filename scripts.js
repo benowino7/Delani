@@ -24,7 +24,34 @@ $(document).ready(function () {
         $('p#p2').hide();
         $('img#img2').show();
     });
+    //creating a slide function
+    $('img#f1').hover(function () {
+        $('#f1').slideToggle('slow');
+    });
+    $('img#f2').hover(function () {
+        $('#f2').slideToggle('slow');
+    });
+    $('img#f3').hover(function () {
+        $('#f3').slideToggle('slow');
+    });
+    $('img#f4').hover(function () {
+        $('#f4').slideToggle('slow');
+    });
+    $('img#f5').hover(function () {
+        $('#f5').toggle('slow');
+    });
+    $('img#f6').hover(function () {
+        $('#f6').toggle('slow');
+    });
+    $('img#f7').hover(function () {
+        $('#f7').toggle('slow');
+    });
+    $('p#f8').hover(function () {
+        $('#f8').slideToggle('slow');
+    });
+
 });
+
 
 document.forms['forms'].addEventListener('submit', function (e) {
     e.preventDefault();
